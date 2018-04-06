@@ -1,0 +1,17 @@
+<canvas id="viewport" width="1100px" height="1700px"></canvas>
+<img id="myimg" src="">
+<script>
+let canvas = document.getElementById('viewport'),
+img = document.getElementById('myimg'),
+context = canvas.getContext('2d');
+make_base();
+function make_base()
+{
+  img = new Image();
+  img.src ="curriculo.jpg";
+  img.crossOrigin = "Anonymous";
+  img.onload = function(){
+      context.drawImage( img, 0, 0 );
+  }
+}
+</script>
