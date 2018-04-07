@@ -19,13 +19,12 @@ h1{
 	padding-top: 23px;
 	font-size: 23px;
 	text-align: center;
-	padding-left: 200px;
 
 }
 
 .titulo{
 	width: 1150px;
-	text-transform: uppercase;
+	color:red;
 }
 
 .container-header{
@@ -45,6 +44,7 @@ h1{
 .icones-sociais{
 	list-style: none;
 	list-style-type: none;
+	padding-right: 40px;
 }
 
 .icones-sociais li{
@@ -71,9 +71,12 @@ canvas{
 	padding-top: 100px;
 }
 
-@media only screen and (max-width:500px) {
-	.titulo{
+@media only screen and (max-width:300px) {
+	.container-header{
 		width: 900px;
 		text-transform: uppercase;
+	}
+	.icones-sociais{
+		display: flex;
 	}
 }
