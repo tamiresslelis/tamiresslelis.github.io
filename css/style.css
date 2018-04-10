@@ -1,0 +1,83 @@
+*{
+	box-sizing: border-box;
+}
+
+header{
+	padding: 15px;
+	position: fixed;
+	background-color: #333;
+	height: 85px;
+	color: #FFF;
+	width: 100%;
+}
+
+div{
+	display: block;
+}
+
+h1{
+	padding-top: 23px;
+	font-size: 23px;
+	text-align: center;
+	color:red;
+}
+
+.titulo{
+	width: 1150px;
+
+}
+
+.container-header{
+	width: 1150px
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+.sociais{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container{
+	width: 1150px
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.icones-sociais{
+	list-style: none;
+	list-style-type: none;
+	padding-right: 40px;
+}
+
+.icones-sociais li{
+	display: inline;
+
+}
+
+.icones-sociais a{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	font-size: 0;
+}
+
+.github{
+	background-image: url(../img/github.png);
+}
+
+.linkedin{
+	background-image: url(../img/linkedin.png);
+}
+
+canvas{
+	padding-top: 100px;
+}
+
+@media only screen and (max-width:1100px) {
+ header{
+	 background-color: black;
+	 height: 125px;
+ }
+}
